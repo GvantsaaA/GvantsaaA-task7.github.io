@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "satauri";
+    src: url(FiraGO-Bold.woff);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(FiraGO-Regular.woff);
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mtavari{
+    width: 1223px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.pirhead{
+    font-family: "satauri";
+    margin-top: 35px;
+    margin-left: 0px;
+    font-weight: 700;
+    
+    line-height: 29px;
+    color: #000000;
+    
+    
+}
+
+
+
+
+.pirveliyuti{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+
+.meorhead{
+    font-family: "satauri";
+}
+
+.ipt1{
+
+    padding-left: 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    width: 335px;
+    height: 50px;
+}
+
+.ipt2{
+    
+    width: 245px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+
+.ipt3{
+    
+    width: 195px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+
+::placeholder{
+    font-family: "regular";
+    color: #E8E8E8;
+}
+
+.btn1{
+    background: #FFDD04;
+    margin-right: 19px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFDD04;
+
+   
+    padding-left: 41px;
+    padding-right: 41px;
+    width: 135px;
+    height: 50px;
+
+    font-family: "satauri";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000
+
+}
+
+.but{
+    text-align: center;
+    
+}
+
+
+.pirvelitr{
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+}
+
+.pirvelitr > th{
+    font-family: "satauri";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 23px 25px;
+}
+
+.meoretr{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.meoretr > td{
+    padding: 17px 30px 17px 25px;
+}
+
+
+
+.erti{
+    border: 1px solid #EDEDED;
+    border-collapse: collapse;
+}
+
+
+.pat1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    line-height: 19px;
+    margin-bottom: 18px;
+    margin-right: 17px;
+    
+}
+
+.btn2{
+
+    width: 141px;
+    height: 40px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border: 1px solid #FFDD04;
+    font-family: "satauri";
+}
+
+.ori{
+    border: 1px solid #EDEDED;
+    border-collapse: collapse;
+}
+
+
+
+
+.oris1{
+    font-family: "regular";
+    text-align: left;
+    padding-top: 23px;
+    padding-left: 23px;
+    padding-bottom: 23px;
+}
+
+.oris111{
+    font-family: "regular";
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.oris2{
+   
+   font-family: "regular";
+   padding-left: 25px;
+   padding-bottom: 2px;
+   padding-right: 55px;
+   width: 107px;
+   height: 19px;
+}
+
+.simpl{
+   font-family: "regular";
+   padding-top: 25px;
+   padding-left: 25px;
+   padding-bottom: 23px;
+   padding-right: 45px;
+}
+
+.simple{
+    font-family: "regular";
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 23px;
+    padding-right: 45px;
+}
+
+.simp{
+    font-family: "regular";
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 23px;
+    padding-right: 45px;
+}
+
+.simple1{
+    font-family: "regular";
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 23px;
+    padding-right: 50px;
+}
+
+.buttt{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 23px;
+    padding-right: 6px;
+}
+
+.ertt{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+    background: #FF8271;
+    border-radius: 10px;
+    border: 1px solid #FF8271;
+    font-family: "satauri";
+}
+
+.orr{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 31px;
+    padding-right: 31px;
+
+    background: #FFDD04;
+    border-radius: 10px;
+    border: 1px solid #FFDD04;
+    margin-left: 6px;
+    font-family: "satauri";
+}
+
+.tr1{
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+}
+ 
+.tr2{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr3{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr4{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr5{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr6{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr7{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr8{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.tr9{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
